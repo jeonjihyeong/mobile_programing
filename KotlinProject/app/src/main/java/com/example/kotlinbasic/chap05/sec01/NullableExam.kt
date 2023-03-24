@@ -23,4 +23,7 @@ fun main(){
             println(b.length)
         }
     }
+
+    val s9 = s8?.length ?: 0
+    println("s9 : $s9")
 }
