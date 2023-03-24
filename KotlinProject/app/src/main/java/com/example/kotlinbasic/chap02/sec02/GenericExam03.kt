@@ -5,7 +5,7 @@ fun <T: Number> getSum(num1: T, num2: T): T{
 }
 
 fun main(){
-    println(getSum(num1: 10, num2: 20))
-    println(getSum(num1: 10.0f, num2: 20.0f))
-    println(getSum(num1: 10.0, num2: 20.0))
+    println(getSum(10,  20))
+    println(getSum( 10.0f,  20.0f))
+    println(getSum( 10.0,  20.0))
 }

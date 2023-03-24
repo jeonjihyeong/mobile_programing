@@ -4,7 +4,7 @@ fun main(){
     val s: String? = null
 
     println(strLenFun(s))
-    println(strLenFun(str: "kotlin"))
+    println(strLenFun( "kotlin"))
 }
 
 fun strLenFun(str: String?) : Int =

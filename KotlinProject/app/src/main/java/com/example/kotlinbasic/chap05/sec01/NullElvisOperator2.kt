@@ -5,10 +5,10 @@ class Company(val companyName: String, val address: Address?)
 class Person(val name: String, val company: Company?)
 
 fun main(){
-    val address = Address(streetAddress: "경기 성남시 분당구 정자일로 95", zipCode: 13561)
-    val naver = Company(companyName: "네이버", address)
-    val sony = Person(name: "손흥민" , naver)
-    val alex = Person(name: "알렉스", company: null)
+    val address = Address( "경기 성남시 분당구 정자일로 95",  13561)
+    val naver = Company("네이버", address)
+    val sony = Person( "손흥민" , naver)
+    val alex = Person( "알렉스",  null)
 
     try{
         printAddress(sony)

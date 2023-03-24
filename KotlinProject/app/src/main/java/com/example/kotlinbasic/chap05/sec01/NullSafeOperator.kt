@@ -7,5 +7,5 @@ fun strAllCaps(str: String?){
 
 fun main(){
     strAllCaps(str:null)
-    strAllCaps(str: "kotlin")
+    strAllCaps( "kotlin")
 }

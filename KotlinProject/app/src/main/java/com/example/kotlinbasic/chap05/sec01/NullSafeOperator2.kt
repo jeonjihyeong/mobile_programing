@@ -1,8 +1,8 @@
 package com.example.kotlinbasic.chap05.sec01
 
 fun main(){
-    val president = Employee(name: "김대표", manager:null)
-    val director = Employee(name: "김부장", president)
+    val president = Employee("김대표", null)
+    val director = Employee( "김부장", president)
 
     println(managerInfo(president))
     println(managerInfo(director))

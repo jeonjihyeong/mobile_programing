@@ -7,7 +7,7 @@ class Person(val name: String){
 }
 
 fun main(){
-    val sony = Person(name: "손흥민")
+    val sony = Person( "손흥민")
     println(" name: ${sony.name}")
 
     sony.invoke(phone: "010-1234-1234", email: "sony@gmail.com")

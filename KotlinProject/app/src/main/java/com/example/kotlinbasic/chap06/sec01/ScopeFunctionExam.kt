@@ -15,10 +15,10 @@ data class Student(
 }
 
 fun main(){
-    var notebook = NoteBook(model: "LG그램", year: 2023, price: 250)
+    var notebook = NoteBook( "LG그램",  2023,  250)
     println("model: ${notebook.model}, year: ${notebook.year}, price: ${notebook.price}")
 
-    var myNoteBook = NoteBook(model: "LG그램", year:2023, price: 250).apply{this:NoteBook
+    var myNoteBook = NoteBook("LG그램", 2023, 250).apply{this:NoteBook
         model = "[New!] $model"
         getDiscount()
         println("model: $model, year: $year, price: $price")
@@ -63,7 +63,7 @@ fun main(){
     }
     prinln(infoNoteBook)
 
-    var myNoteBook2 = NoteBook(model: "LG그램 360", year: 2023, price: 300).also{it: NoteBook
+    var myNoteBook2 = NoteBook( "LG그램 360", 2023,  300).also{it: NoteBook
         it.model = "[New! 2023] ${it.model}"
         it.getDiscount()
     }

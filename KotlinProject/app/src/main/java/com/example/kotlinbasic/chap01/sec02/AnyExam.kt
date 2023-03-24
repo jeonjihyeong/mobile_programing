@@ -1,9 +1,9 @@
 package com.example.kotlinbasic.chap01.sec02
 
 fun main() {
-    checkArgs(type: "Kotlin")
-    checkArgs(type: 100)
-    checkArgs(type: 100.0)
+    checkArgs("Kotlin")
+    checkArgs( 100)
+    checkArgs( 100.0)
 }
 
 

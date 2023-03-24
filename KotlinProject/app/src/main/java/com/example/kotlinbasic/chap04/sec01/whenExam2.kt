@@ -1,7 +1,7 @@
 package com.example.kotlinbasic.chap04.sec01
 
 fun main(){
-    whenUsage(inputType: 2, score: 50, city: "서울특별시")
+    whenUsage(2,  50,  "서울특별시")
 }
 
 fun whenUsage(inputType: Int, score: Int, city: String){
