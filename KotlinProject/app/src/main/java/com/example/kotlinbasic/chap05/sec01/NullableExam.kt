@@ -15,10 +15,10 @@ fun main(){
     println(s7?.length)
 
     var s8: String? = "코틀린을 배우자"
-    println(s8?.substring(startIndex:5)?.length)
+    println(s8?.substring(5)?.length)
 
     if(s8 != null){
-        val b: String? = s8.substring(startIndex:5)
+        val b: String? = s8.substring(5)
         if(b!=null){
             println(b.length)
         }
